@@ -1,0 +1,42 @@
+# --- Java ---
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# --- Gradle ---
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+# If you generate local.properties or similar
+local.properties
+
+# --- Test/coverage outputs (usually inside build/, but just in case) ---
+**/test-results/
+**/reports/
+**/jacoco.exec
+**/jacoco/
+
+# --- IDEs ---
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.bin/
+
+# --- Misc/OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Other common junk ---
+.out/
+target/
